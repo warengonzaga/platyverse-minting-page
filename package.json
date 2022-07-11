@@ -1,5 +1,5 @@
 {
-  "name": "custom-minting-page",
+  "name": "playtyverse-minting-page",
   "version": "0.1.0",
   "homepage": "https://seriousplatypusnft.xyz",
   "private": true,
@@ -7,9 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@thirdweb-dev/react": "^2",
