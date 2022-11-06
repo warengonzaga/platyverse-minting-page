@@ -23,7 +23,7 @@
   justify-content: center;
   width: 80vw;
   padding: 0 18px;
-  min-height: 550px;
+  min-height: 500px;
   max-width: 80vw;
   gap: 2%;
   border: 5px solid var(--border-color);
@@ -164,6 +164,10 @@
 
 .quantityControlButton:disabled {
   opacity: 0.25;
+}
+
+.discordLink {
+  color: var(--text-color);
 }
 
 /* On mobile, make the .mintInfoContainer stack vertically */
